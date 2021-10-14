@@ -208,11 +208,8 @@ body {
 
 /* *************fort******************* */
 
-.fort {
-    background-color: #CC1F00;
-}
-
 .fort .container {
+    background-color: #CC1F00;
     padding-top: 45px;
     padding-bottom: 45px;
     padding-right: 0;
