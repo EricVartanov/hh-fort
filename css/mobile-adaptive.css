@@ -32,12 +32,13 @@
         width: 100%;
     }
     .gallery__img-row {
-        margin-right: -6px;
         margin-top: 7px;
+    }
+    .gallery__img-row .gallery__sm-img:first-child {
+        margin-right: 6px;
     }
     .gallery__sm-img {
         height: 32.5vw;
-        margin-right: 6px;
     }
     .about .container {
         padding-top: 25px;

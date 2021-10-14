@@ -32,6 +32,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     max-width: 690px;
+    width: 100%;
 }
 
 
@@ -59,7 +60,6 @@ body {
 }
 
 .gallery__img-row {
-    margin-right: -10px;
     overflow: hidden;
     margin-top: 10px;
     display: -webkit-box;
@@ -70,13 +70,16 @@ body {
     justify-content: space-between;
 }
 
+.gallery__img-row .gallery__sm-img:first-child {
+    margin-right: 10px;
+}
+
 .gallery__sm-img {
     width: auto;
     height: 226px;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    margin-right: 10px;
 }
 
 .gallery__main-img,
