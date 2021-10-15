@@ -91,9 +91,9 @@
     }
     .fort__item {
         width: 100%;
-        max-width: 152px;
+        max-width: 157px;
         margin-top: 20px;
-        margin-right: 20px;
+        margin-right: 15px;
     }
     .fort__item-name {
         line-height: 26px;
